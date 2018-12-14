@@ -37,6 +37,7 @@ extern const char* jalali_days_2_fa[];
 extern const char* fa_jalali_months[];
 extern const char* fa_jalali_days_3[];
 extern const char* fa_jalali_days_2[];
+extern const char* fa_jalali_days_single[];
 
 extern const int jalali_month_len[];
 
@@ -315,7 +316,7 @@ void show_cal(struct cal_layout* l,
 
     if (l->farsi)
         ptr_d = (l->julian) ? (char**) fa_jalali_days_3 :
-            (char**) fa_jalali_days_2;
+            (char**) fa_jalali_days_single;
     else if (l->english)
         ptr_d = (l->julian) ? (char**) jalali_days_3 : (char**) jalali_days_2;
     else
