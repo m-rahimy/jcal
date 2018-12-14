@@ -52,6 +52,9 @@ const char* fa_jalali_days_3[] = { "شنب", "یکش", "دوش", "سهش", "چه
 const char* jalali_days_2_fa[] = { "Sh", "Ye", "Do", "Se", "Ch", "Pa", "Jo" };
 
 const char* fa_jalali_days_2[] = { "شن", "یک", "دو", "سه", "چه", "پن", "جم" };
+
+const char* fa_jalali_days_single[] = { "ش", "ی", "د", "س", "چ", "پ", "ج" };
+
 const char* jalali_days[] = { "Saturday", "Sunday", "Monday", "Tuesday",
                               "Wednesday", "Thursday", "Friday" };
 const char* jalali_days_3[] = { "Sat", "Sun", "Mon", "Tue", "Wed", "Thu",
